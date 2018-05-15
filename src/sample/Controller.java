@@ -18,8 +18,8 @@ public class Controller {
 
     private void send(){
         String str = textField.getText();
-        textField.clear();
         textArea.appendText(str + "\n");
+        textField.clear();
     }
 
     public void sendMessageOnBtnClick(ActionEvent actionEvent){
